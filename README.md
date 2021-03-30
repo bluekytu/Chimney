@@ -1,2 +1,2 @@
 # Chimney
-Chimney is an open-source messaging website.
+Chimney is an close-source messaging website.
