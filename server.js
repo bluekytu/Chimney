@@ -14,18 +14,18 @@ const { constants } = require('crypto')
 var con = db.createConnection({
     host: "localhost",
     user: "root",
-    password: "0218595Mm",
-    database: "noderegister2"
+    password: "password",
+    database: "database"
 })
 
 /**
  * Pusher Below
  */
 const pusher = new Pusher({
- appId: "1059847",
- key: "5e541d4d4c6cbfec4c19",   
- secret: "3f087977e9dc8c2f1cac",
- cluster: "ap2"
+ appId: "ID",
+ key: "KEY",   
+ secret: "SECRET",
+ cluster: "cluster"
 })
 
 /**
