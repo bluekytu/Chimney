@@ -8,8 +8,8 @@ const bodyParser = require('body-parser')
 var con = sql.createConnection({
     host : "localhost",
     user : "root",
-    password : "0218595Mm",
-    database : "noderegister2"
+    password : "password",
+    database : "database"
 
 })
 app.use(session({
